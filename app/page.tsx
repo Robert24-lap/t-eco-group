@@ -31,6 +31,9 @@ export default function HomePage() {
               <Link href="/nuestra-vision" className="text-navy-700 hover:text-navy-900 transition-colors">
                 Nuestra Visión
               </Link>
+              <a href="/alianzas.html" className="text-navy-700 hover:text-navy-900 transition-colors">
+                Alianzas
+              </a>
             </div>
           </nav>
         </div>

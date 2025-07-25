@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowLeft, Code, Users, Building, Globe } from "lucide-react"
+import { ArrowLeft, Code, Users } from "lucide-react"
 import ChatBot from "@/components/chat-bot"
 
 export default function QueHacemosPage() {
@@ -188,39 +188,13 @@ export default function QueHacemosPage() {
           </div>
         </section>
 
-        {/* Strategic Alliances */}
-        <section className="mb-16">
-          <h3 className="text-3xl font-bold text-navy-900 text-center mb-12">Alianzas Estratégicas</h3>
-          <p className="text-xl text-navy-700 text-center mb-8 max-w-3xl mx-auto">
-            Nuestras alianzas estratégicas con PROINDUSTRIA y la Embajada de Estados Unidos nos posicionan como líderes
-            en la transformación digital del país.
-          </p>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="bg-white border-navy-200 shadow-lg">
-              <CardHeader>
-                <Building className="h-12 w-12 text-eco-green-500 mb-4" />
-                <CardTitle className="text-navy-900">PROINDUSTRIA</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-navy-700">
-                  Alianza estratégica que nos posiciona como líderes en la transformación digital del sector industrial
-                  dominicano, impulsando la competitividad empresarial.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-white border-navy-200 shadow-lg">
-              <CardHeader>
-                <Globe className="h-12 w-12 text-eco-yellow-400 mb-4" />
-                <CardTitle className="text-navy-900">Embajada de Estados Unidos</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-navy-700">
-                  Colaboración internacional que fortalece nuestros programas de formación y nos conecta con las mejores
-                  prácticas tecnológicas globales.
-                </p>
-              </CardContent>
-            </Card>
+        {/* Link to Alliances */}
+        <section className="mb-16 text-center">
+          <div className="bg-gray-50 rounded-lg p-8">
+            <h3 className="text-xl font-semibold text-navy-900 mb-4">¿Quieres conocer nuestras alianzas?</h3>
+            <a href="/alianzas.html" className="text-eco-green-600 hover:text-eco-green-700 font-semibold">
+              Ver alianzas estratégicas →
+            </a>
           </div>
         </section>
 

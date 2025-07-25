@@ -37,7 +37,7 @@ export default function QuienesSomosPage() {
         <div className="mb-16">
           <img
             src="/images/classroom2.png"
-            alt="Aula moderna de T-ECO Academy"
+            alt="Aula moderna de T-ECO Group"
             className="w-full h-96 object-cover rounded-lg shadow-2xl"
           />
         </div>
@@ -88,7 +88,7 @@ export default function QuienesSomosPage() {
         </section>
 
         {/* Team Section */}
-        <section className="text-center">
+        <section className="text-center mb-16">
           <h3 className="text-3xl font-bold text-navy-900 mb-8">Nuestro Equipo</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-white border-navy-200 shadow-lg">
@@ -138,33 +138,6 @@ export default function QuienesSomosPage() {
           </div>
         </section>
 
-        {/* Alianzas Section */}
-        <section className="text-center mt-16">
-          <h3 className="text-3xl font-bold text-navy-900 mb-8">Nuestras Alianzas Estratégicas</h3>
-          <p className="text-xl text-navy-900/80 max-w-3xl mx-auto mb-8">
-            Nuestras alianzas estratégicas con PROINDUSTRIA y la Embajada de Estados Unidos nos posicionan como líderes
-            en la transformación digital del país.
-          </p>
-          <div className="flex justify-center items-center space-x-12">
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=80&width=150"
-                alt="PROINDUSTRIA Logo"
-                className="h-20 object-contain mx-auto mb-2"
-              />
-              <p className="text-navy-700 font-semibold">PROINDUSTRIA</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=80&width=150"
-                alt="Embajada de Estados Unidos Logo"
-                className="h-20 object-contain mx-auto mb-2"
-              />
-              <p className="text-navy-700 font-semibold">Embajada de Estados Unidos</p>
-            </div>
-          </div>
-        </section>
-
         {/* Contact Info */}
         <section className="text-center mt-16 bg-gray-50 rounded-lg p-8">
           <h3 className="text-2xl font-bold text-navy-900 mb-6">Nuestra Ubicación</h3>
@@ -176,6 +149,11 @@ export default function QuienesSomosPage() {
               <p className="font-semibold">+1 (849) 517-7567</p>
               <p className="font-semibold">tecog.academy@gmail.com</p>
               <p className="font-semibold">www.t-ecogroup.net</p>
+            </div>
+            <div className="mt-6">
+              <a href="/alianzas.html" className="text-eco-green-600 hover:text-eco-green-700 font-semibold">
+                Ver nuestras alianzas estratégicas →
+              </a>
             </div>
           </div>
         </section>
